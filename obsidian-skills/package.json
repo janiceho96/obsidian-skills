@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-skills",
+  "version": "1.0.0",
+  "description": "Agent Skills for use with Obsidian.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/obsidian-skills.git"
+  },
+  "keywords": [
+    "obsidian",
+    "skills",
+    "agent",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2"
+  }
+}

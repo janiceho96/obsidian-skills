@@ -1,0 +1,26 @@
+name: Example Skill
+description: This is an example skill for the Obsidian Skills framework.
+version: 1.0.0
+author: Your Name
+inputs:
+  - name: input1
+    type: string
+    description: The first input for the skill.
+  - name: input2
+    type: number
+    description: The second input for the skill.
+outputs:
+  - name: output1
+    type: string
+    description: The output of the skill.
+actions:
+  - name: exampleAction
+    description: An example action that demonstrates skill functionality.
+    parameters:
+      - input1: 
+          required: true
+      - input2: 
+          required: true
+    result:
+      output1: 
+        description: The result of the example action.

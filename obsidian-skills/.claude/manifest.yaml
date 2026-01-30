@@ -1,0 +1,13 @@
+name: Obsidian Skills
+description: A collection of skills for use with Obsidian, following the Agent Skills specification.
+version: 1.0.0
+author: Your Name
+skills:
+  - obsidian-skills
+  - example-skill
+dependencies:
+  - obsidian: ^0.12.0
+  - some-other-dependency: ^1.0.0
+configuration:
+  setting1: value1
+  setting2: value2

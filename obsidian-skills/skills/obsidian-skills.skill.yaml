@@ -1,0 +1,24 @@
+name: Obsidian Skills
+description: A collection of skills for enhancing the Obsidian experience.
+version: 1.0.0
+author: Your Name
+license: MIT
+skills:
+  - name: Create and Edit Markdown Files
+    description: Skill to create and edit Obsidian-compatible Markdown files.
+    parameters:
+      - name: fileName
+        type: string
+        description: The name of the Markdown file to create or edit.
+      - name: content
+        type: string
+        description: The content to write to the Markdown file.
+    actions:
+      - createFile:
+          fileType: markdown
+          fileName: ${fileName}
+          content: ${content}
+      - editFile:
+          fileType: markdown
+          fileName: ${fileName}
+          content: ${content}
